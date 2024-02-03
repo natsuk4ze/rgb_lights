@@ -2,7 +2,8 @@
 
 ![demo](https://github.com/natsuk4ze/rgb_lights/raw/main/assets/demo.gif)
 
-### Dynamically generates RGB light effects in Flutter. Remember to star [this repository](https://github.com/natsuk4ze/rgb_lights) for more.
+### Dynamically generates RGB light effects in Flutter. 
+Remember to [star this repository](https://github.com/natsuk4ze/rgb_lights) for more.
 
 ## How does it work
 
