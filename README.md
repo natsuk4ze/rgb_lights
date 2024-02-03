@@ -11,7 +11,7 @@ The mechanism is very simple. Like digital signage, we prepare several dots and 
 `HSVColor` is used to generate effects. It has the property that colors can be represented using 360 degrees from 0, which works very well with gradients. (I also use it in [my holographic UI](https://github.com/natsuk4ze/holo))
 
 For example, with just this code, you can create an animation with a color gradient transition.
-(In fact, you can also use `ColorTween`.)
+Actually, I could have used `ColorTween`, but the performance was not good, so I simply used timers only. (This could be rewritten.)
 ```dart
 ... // Increment 'hue' with a counter.
 
