@@ -19,7 +19,7 @@ Actually, I could have used `ColorTween`, but the performance was not good, so I
 ColoredBox(color: HSVColor.fromAHSV(1.0, hue % 360, 1.0, 1.0).toColor());
 ```
 
-Interestingly, one can generate a variety of geometric patterns simply by scaling the function that creates the wave.
+Interestingly, one can generate a variety of geometric patterns simply by scaling the hue that creates the wave.
 ```dart
 ColorMap _linerWaveColorMap(int count, double scale) => {
       for (var i = 0; i < _columnLength * _rowLength; i++)
